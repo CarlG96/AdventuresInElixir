@@ -14,3 +14,4 @@ IO.puts(make_answer.())
 product_price = 200
 quantity = 2
 calculate = fn quantity -> product_price * quantity end
+IO.puts(calculate.(4))
